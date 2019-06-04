@@ -1,0 +1,142 @@
+@media only screen and (min-width:700px){
+    body{
+        font-family: Arial;
+        background-image: url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-bDUeI3F2l_w%2FUD5FB_Nh7KI%2FAAAAAAAAIho%2FRvBpImL_uIE%2Fs1600%2FTree%2BIn%2BField%2BWallpapers%2B1.jpg&f=1);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    .wrap{
+        margin: 0 auto;
+        width: 350px;
+        background-color: #27A285;
+        color: white;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+    input{
+        border-radius: 20px;
+        margin-bottom: 20px; 
+        border: none;
+        border: 1px solid #27A285;
+        padding: 3px;
+    }
+    input:last-child{
+        border: none;
+        border: 1px solid white;
+        padding: 5px;
+        color: white;
+        background-color: #27A285;
+        text-transform: uppercase;
+    }
+    label:last-child{
+        text-align: center;
+    }
+    textarea{
+        border-radius: 15px;
+        margin-bottom: 20px; 
+        max-width: 100%;
+        min-width: 100%;
+        min-height: 50px;
+    }
+    h1{
+        text-align: center;
+        padding: 50px;
+    }
+    span{
+        text-decoration: underline;
+    }
+    footer{
+        text-align: center;
+        padding: 20px;
+    }
+    i{
+        padding: 10px;
+        width: 20px;
+        margin: 5px;
+        border-radius: 50%;
+        background-color: white;
+        color: #27A285;
+    }
+    button{
+        padding: 5px;
+        border: none;
+        margin: 5px;
+    }
+    button:focus{
+        border: 1px solid black
+    }
+    .center{
+        text-align: center;
+    }
+}
+@media only screen and (max-width:700px){
+    body{
+        font-family: Arial;
+        background-image: url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-bDUeI3F2l_w%2FUD5FB_Nh7KI%2FAAAAAAAAIho%2FRvBpImL_uIE%2Fs1600%2FTree%2BIn%2BField%2BWallpapers%2B1.jpg&f=1);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .wrap{
+        margin: 0 auto;
+        width: 80%;
+        background-color: #27A285;
+        color: white;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+    input{
+        border-radius: 20px;
+        margin-bottom: 20px; 
+        border: none;
+        padding: 3px;
+    }
+    input:last-child{
+        border: none;
+        border: 1px solid white;
+        padding: 5px;
+        color: white;
+        background-color: #27A285;
+        text-transform: uppercase;
+    }
+    label:last-child{
+        text-align: center;
+    }
+    textarea{
+        border-radius: 15px;
+        margin-bottom: 20px; 
+        max-width: 100%;
+        min-width: 100%;
+        min-height: 50px;
+    }
+    h1{
+        text-align: center;
+        padding: 50px;
+    }
+    span{
+        text-decoration: underline;
+    }
+    footer{
+        text-align: center;
+        padding: 20px;
+    }
+    i{
+        padding: 10px;
+        width: 20px;
+        margin: 5px;
+        border-radius: 50%;
+        background-color: white;
+        color: #27A285;
+    }
+}

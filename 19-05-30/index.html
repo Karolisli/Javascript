@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <h1 class="black_color"><span>Get</span> In Touch</h1>
+        </header>
+        <section>
+            <label class="black_color">Name</label>
+            <input type="text">
+            <label class="black_color">Email</label>
+            <input type="email">
+            <label class="black_color">Message</label>
+            <textarea></textarea>
+            <input class="button_color" type="submit" value="send it">
+        </section>
+        <section>
+           <label>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+            </label>
+        </section>
+        <div class="center">
+            <button onclick="myFunction()">Click me</button>
+        </div>
+        <footer class="black_color">
+            2018 danjuma ashiwaju
+        </footer>
+    </div>
+    <script>
+        function myFunction(){
+            var x = document.getElementsByClassName("black_color");
+            var u;
+            for (u = 0; u < x.length; u++) {
+                x[u].style.color = "#27A285";
+            }
+            var y = document.getElementsByClassName("wrap");
+            var o;
+            for (o = 0; o < y.length; o++) {
+                y[o].style.backgroundColor = "white";
+            }
+            var z = document.getElementsByClassName("fab");
+            var p;
+            for (p = 0; p < z.length; p++) {
+                z[p].style.backgroundColor = "#27A285";
+                z[p].style.color = "white";
+            }
+            var c = document.getElementsByClassName("button_color");
+            var k;
+            for (k = 0; k < c.length; k++) {
+                c[k].style.backgroundColor = "white";
+                c[k].style.color = "#27A285";
+                c[k].style.border = "#27A285";
+            }
+        }
+    </script>
+</body>
+</html>

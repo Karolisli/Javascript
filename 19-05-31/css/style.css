@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    font-family: arial;
+}
+.green{
+    background-color: #7BC3AF;
+    color: white;
+}
+.white{
+    background-color: #FFFFFF;
+}
+section input{
+    width: 400px;
+    height: 100px;
+    background-color: #EFEFEF;
+    border: none;
+}
+section input:last-child{
+    padding: 10px;
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #F3A683;
+    border: none;
+    color: white;
+}
+.blue{
+    background-color: #F0F0F0;
+}
+.dark_blue{
+    background-color: #3C3E42;
+}
+.pink{
+    background-color: #F3A683;
+    color: white;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    background-color: #7BC3AF;
+}
+.phone{
+    max-width: 300px;
+    min-width: 100px;
+}
+.gray{
+    color: gainsboro;
+}
+.wrap{
+    margin: 0 auto;
+    width: 80%;
+}
+section{
+    padding: 20px;
+}
+.big{
+    text-transform: uppercase;
+}
+i{
+    border: 2px solid white;
+    width: 20px;;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+section div p{
+    font-size: 20px;
+}
+section h2 span{
+    color: #F3A683;
+}
+.circle{
+    padding:50px;
+    background-color: #79D9BD;
+    border-radius: 50%;
+    background-size: cover;
+}
+@media only screen and (min-width:600px){
+    body{
+        font-family: arial;
+    }
+}
