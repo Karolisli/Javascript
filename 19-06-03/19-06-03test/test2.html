@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <input type="text" id="vardas">
+    <input type="text" id="pavarde">
+    <input type="text" id="tel">
+
+    <input type="submit" onclick="myFunction()">
+    <h3 id="app"></h3>
+
+    <script>
+        function myFunction(){
+            let name = document.getElementById("vardas").value;
+            let surname = document.getElementById("pavarde").value;
+            let tele = document.getElementById("tel").value;
+
+            const app = document.getElementById("app");
+
+            app.innerHTML = name + surname + tel;
+        }
+    </script>
+</body>
+</html>

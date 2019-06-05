@@ -1,0 +1,7 @@
+section{
+    width: 200px;
+    border: 1px solid black;
+}
+input [type=submit]{
+    width: 30%;
+}

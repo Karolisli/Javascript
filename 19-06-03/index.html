@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+</head>
+<body>
+    <div id="test"></div>
+
+
+
+    <input type="text" id="test2go">
+    <input type="submit" onclick="myFunction()">
+    <p id="output"></p>
+
+    <input type="text" id="vardas">
+    <input type="submit" onclick="myFunction(2)">
+    <h2 id="namehere"></h2>
+    <script>
+        var human = {name:"bob",body:"fat", mind:"smart", girlfriend:"none", nothing:"nothing"};
+        
+        document.getElementById("test").innerHTML = human.nothing;
+    
+
+
+        function myFunction(){
+            let x = document.getElementById("test2");
+            let go = document.getElementById("test2go").value;
+            if(go === "kazkas"){
+                output.innerHTML = ("niekas");
+            }else{
+                output.innerHTML = ("nope");
+            }
+        }
+    </script>
+</body>
+</html>
