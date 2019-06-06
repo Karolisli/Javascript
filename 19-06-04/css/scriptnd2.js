@@ -9,7 +9,7 @@ function myFunction(){
 
     if(years < 10){
         output.innerHTML = pound;
-    }else if(years >= 10 && years <= 20){
+    }else if(years >= 10 && years <= 19){
         output.innerHTML = pound + 50;
     }else{
         output.innerHTML = pound + 100;
