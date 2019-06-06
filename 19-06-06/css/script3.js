@@ -16,7 +16,7 @@
 // document.write(me.name);
 
 
-// teste V
+// teste bus V
 function here(){
     let rand = Math.floor(Math.random() * 4 + 1);
     let text = "Write here";
