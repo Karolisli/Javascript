@@ -10,8 +10,8 @@ div.appendChild(h2);
 let p = document.createElement("p");
 div.appendChild(p);
 
-document.querySelector("h1").innerHTML = "Karolis";
+h1.innerHTML = "Karolis";
 
-document.querySelector("h2").innerHTML = "Liesys";
+h2.innerHTML = "Liesys";
 
-document.querySelector("p").innerHTML = "There is nothing intresthing about me, exept having the worst memory at remembering names of friends.";
+p.innerHTML = "There is nothing intresthing about me, exept having the worst memory at remembering names of friends.";
