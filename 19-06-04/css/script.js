@@ -46,14 +46,14 @@
 // }
 
 
-function myFunction(){
+// function myFunction(){
 
-    let x = document.querySelector("input[type=number]").value;
+//     let x = document.querySelector("input[type=number]").value;
 
-    for(let z = 0; z < x; z++){
-        for(let y = 0; y < z; y++){
-            document.write("*");
-        } 
-        document.write("<br>");
-    }
-}
+//     for(let z = 0; z < x; z++){
+//         for(let y = 0; y < z; y++){
+//             document.write("*");
+//         } 
+//         document.write("<br>");
+//     }
+// }
