@@ -17,7 +17,7 @@ button.addEventListener('click', fn);
 var table = document.querySelector("table")
     table.appendChild(document.createElement("tr")
         .appendChild(document.createElement("td")
-            .appendChild(document.createTextNode("Name"))));
+            .appendChild(document.createTextNode(name))));
 
 function fn(){
     let name = document.getElementById("name").value;
@@ -27,7 +27,7 @@ function fn(){
 
     let td1 = document.createElement("td");
     td1.append(document.createTextNode(name));
-    let td2 = document.createElement("tr");
+    let td2 = document.createElement("td");
     td2.append(document.createTextNode(surname));
 
     tr.append(td1, td2);
