@@ -2,8 +2,8 @@
 const button = document.getElementById("get");
 button.addEventListener('click', cars);
 
-const death_button = document.getElementById("sub_remove");
-death_button.addEventListener('click', byebye);
+// const death_button = document.getElementById("sub_remove");
+// death_button.addEventListener('click', byebye);
 
 const table = document.querySelector("table");
 const clear = () => table.innerHTML = "";
