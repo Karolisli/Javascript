@@ -25,13 +25,13 @@ function moFunction(){
 // kita piramide
 function fn(){
     var N = 8;
-    for(let z = 0; z >= N; z--){
-        document.write("<br>");
-       for(let x = 0; x <= z; x++){
-           document.write("+");
+    for(let z = N; z >= 0; z--){
+       for(let x = 0; x <= N; x++){
+           document.write("&nbsp");
        }
-       for(let c = 0; c <= z; c++){
+       for(let c = 0; c <= 2 * z + 1; c++){
            document.write("*");
        }
+       document.write("<br>");
     }
 }
