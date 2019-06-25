@@ -1,0 +1,353 @@
+body{
+    font-family: Arial;
+}
+
+.wrapper{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.h2{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+h4{
+    text-transform: uppercase;
+}
+
+/* navigation */
+nav{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+nav .icon{
+    display: inline-block;
+}
+
+nav div img{
+    width: 50px;
+}
+
+nav .menu{
+    text-align: center;
+    display: inline-block;
+}
+
+nav .icon i{
+    margin-left: 30px;
+}
+nav .table a, nav .table input{
+    display: none
+}
+/* treniruokis */
+header{
+    background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.shutterstock.com%2Fimage-photo%2Fgym-blur-background-fitness-center-260nw-1342756610.jpg&f=1);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+header div p:first-child{
+    font-size: 55px;
+}
+
+header div input{
+    border: none;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    width: 100%;
+}
+
+header div:last-child{
+    margin: 20px;
+}
+/* kodel mes */
+.column{
+    column-count: 2;
+}
+
+.column div i{
+    border: 4px solid lightskyblue;
+    border-radius: 50%;
+    padding: 20px;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
+
+.kodel{
+    background-color: #FFFFF1;
+}
+.kodel div input{
+    border: none;
+    background-color: gray;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: white;
+    width: 100%;
+}
+
+section{
+    padding: 40px;
+}
+
+/* apie */
+.apie{
+    background-color: #EAF5F9;
+}
+
+.apie div div img{
+    border-radius: 50%;
+    height: 300px;
+}
+
+/* ems fit */
+.fit{
+    background-color: #CDE6ED;
+}
+
+.fit div input{
+    border: none;
+    background-color: gray;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: white;
+    width: 100%;
+}
+
+/* grafikas */
+.grafikas section{
+    display: inline;
+}
+
+.grafikas div input:first-child{
+    border: none;
+    background-color: gray;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: white;
+    width: 50%;
+}
+
+.grafikas div input:last-child{
+    border: none;
+    background-color: blue;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    width: 50%;
+}
+
+.calend{
+    margin-top: 50px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.men {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+  
+.men ul {
+    margin: 0;
+    padding: 0;
+}
+  
+.men ul li {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+  
+.men .prev {
+    float: left;
+}
+  
+.men .next {
+    float: right;
+}
+  
+.sav {
+    margin: 0;
+    padding: 10px 0;
+}
+  
+.sav li {
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+}
+  
+.dien {
+    padding: 10px 0;
+    margin: 0;
+}
+  
+.dien li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+  
+.dien li .active {
+    background: blue;
+    border-radius: 50%;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    color: white 
+}
+
+.dien li .important {
+    border: 2px solid blue;
+    border-radius: 50%;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+}
+.prev, .next{
+    color: #1abc9c;
+    border-radius: 50%;
+    background-color: blue;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+}
+
+/* dazniausiai uzduodami klausimai */
+.klaus{
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.klaus p:first-child{
+    color: #1abc9c;
+}
+
+.duk{
+    background-color: #CDE6ED;
+}
+
+.massage div input{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.massage div input:last-child{
+    background-color: #71C6E5;
+    color: white;
+    margin-top: 10px;
+}
+
+.kontaktai, .massage{
+    background-color: #292929;
+    color: white;
+}
+
+footer{
+    background-color: #292929;
+    text-align: center;
+    color: #71C6E5;
+    padding: 50px;
+}
+@media only screen and (min-width:550px){
+    .wrapper{
+        width: 900px;
+    }
+    /* navigation */
+    nav{
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+    nav .icon{
+        display: inline-block;
+    }
+    nav div img{
+        width: 50px;
+    }
+    nav .menu{
+        text-align: center;
+        display: inline-block;
+    }
+    nav .icon i{
+        display: none;
+    }
+    nav .table a,nav .table input{
+        display: block;
+        margin: 5px;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    nav .table input{
+        padding: 5px;
+        width: initial;
+        font-size: 15px;
+    }
+    nav .table{
+        display: flex;
+    }
+    /* treniruotis */
+    .next_header{
+        text-align: left;
+    }
+    .next_header input{
+        width: initial;
+    }
+    header,section,footer{
+        padding-left:40px;
+        padding-right: 40px;
+    }
+    /* kodel mes */
+    .column{
+        column-count: 4;
+    }
+    .kodel div input{
+        width: initial;
+    }
+    /* apie mus */
+    .apie .wrapper{
+        text-align: left;
+        display: flex;
+        align-items: center;
+    }
+    .apie div .para{
+        width: 50%;
+    }
+    .apie div .apie_img{
+        margin-left: 50px; 
+    }
+    
+}
