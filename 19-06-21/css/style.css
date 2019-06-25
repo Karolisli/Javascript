@@ -1,0 +1,151 @@
+body{
+    font-family: Arial;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
+/* header */
+header{
+    background-color: #444444;
+}
+
+header .wrapper{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    align-items: center;
+}
+.wrapper div img{
+    width: 300px;
+    height: 50px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+/* section */
+section{
+    background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F2%2F27%2FJRW_683_Series01.JPG%2F1200px-JRW_683_Series01.JPG&f=1);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section .wrapper{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* train */
+.train-small{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 15px;
+
+    margin: 10px;
+    width: calc(25% - 50px);
+}
+.train-large{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 15px;
+
+    margin: 10px;
+    width: calc(50% - 50px);
+}
+/* footer */
+footer{
+    text-align: center;
+    padding: 10px;
+}
+/* prisijunigmas */
+section .wrapper div:nth-child(1) input{
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 5px 10px 5px;
+    border: none;
+    border: 1px solid rgb(214, 214, 214);
+}
+section .wrapper div:nth-child(1) input:last-child{
+    background-color: white;
+}
+section .wrapper div:nth-child(1) input:last-child:hover{
+    background-color: gray;
+}
+
+/* traukinio marsrutas */
+section .wrapper div:nth-child(2) input{
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 5px 10px 5px;
+    border: none;
+    border: 1px solid rgb(214, 214, 214);
+}
+section .wrapper div:nth-child(2) input:last-child{
+    background-color: white;
+}
+section .wrapper div:nth-child(2) input:last-child:hover{
+    background-color: gray;
+}
+
+/* table */
+table, tr, td, th{
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+}
+table{
+    padding: 5px;
+    width: 100%;
+    height: 20px;
+}
+td,th{
+    padding: 5px;
+}
+th{
+    background-color: #444444;
+    color: white;
+}
+tr:nth-child(odd){
+    background-color: lightgrey;
+}
+td:last-child:after{
+    content: "(pirkti)";
+}
+td:last-child:before{
+    content: "\20AC";
+}
+td:last-child:hover::after{
+    text-decoration: underline;
+}
+@media only screen and (max-width:1000px){
+    .wrapper{
+        width: 90%;
+    }
+    /* header */
+    header .wrapper{
+        display: inline;
+        text-align: center
+    }
+    header nav{
+       padding: 5px;
+    }
+    a{
+        display: block;
+    }
+    /* section */
+    .train-small{
+        width: 100%;
+    }
+    .train-large{
+        width: 100%;
+    } 
+}
