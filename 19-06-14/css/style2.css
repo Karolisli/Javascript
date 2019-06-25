@@ -1,0 +1,175 @@
+body {
+    font-family: Arial;
+}
+
+.wrapper {
+    margin: 0 auto;
+    /* width: 100%; */
+}
+
+/* header */
+header div img:first-child {
+    width: 150px;
+    height: 50px;
+}
+
+header div {
+    text-align: center;
+}
+
+header {
+    background-color: #DBDEE5;
+    padding: 5px;
+}
+
+/* navigation */
+nav {
+    text-align: center;
+    margin: 10px;
+}
+
+a {
+    margin: 20px;
+    color: #F26059;
+    text-decoration: none;
+}
+a:last-child{
+    margin-right: 0px;
+}
+
+a:first-child{
+    margin-left: 0px;
+}
+
+a:hover {
+    color: rgb(189, 68, 68);
+    text-decoration: underline;
+}
+
+/* main yamaha */
+.main_image {
+    width: 100%;  
+    object-fit: cover;
+    max-height: 400px;;
+}
+
+.relative {
+    position: relative;
+}
+
+.main_text {
+    background-color: rgba(189, 43, 43, 0.5);
+    position: absolute;
+    padding: 10px;
+    bottom: 0px;
+    right: 0px;
+}
+
+/* h2 color */
+.red {
+    color: red;
+}
+
+.pink {
+    color: pink;
+}
+
+/* 4 yamahas */
+li{
+    text-decoration: bold;
+}
+.four_yamahas {
+    background-color: #F3F6F8;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.four_yamahas img {
+    width: 150px;;
+}
+
+.four_yamahas p {
+    text-align: justify;
+}
+
+.column_width {
+    column-count: 2;
+}
+
+/* inputs */
+.column input,textarea {
+    max-width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    max-height: 120px;
+    min-height: 20px;
+}
+
+.column input:last-child {
+    max-width: 150px;
+    min-width: 150px;
+    border: none;
+    border: 1px solid red;
+    background-color: white;
+}
+
+.column input:last-child:hover {
+    background-color: red;
+    color: white;
+}
+
+/* map */
+.map img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
+/* copyright */
+footer {
+    background-color: #DBDEE5;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+@media only screen and (min-width:1050px){
+    .wrapper {
+        margin: 0 auto;
+        max-width: 900px;
+    }
+    /* header */
+    header div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* four_yamahas */
+    .column_width {
+        column-count: initial;
+        display: flex;
+        justify-content: center;
+    }
+
+    .four_yamahas {
+        max-width: 20%;
+        margin: 5px;
+    }
+
+    /* input */
+    .column_all {
+        column-count: 2;
+    }
+
+    /* map */
+    .map img {
+        height: initial;
+    }
+
+}
+
+    
