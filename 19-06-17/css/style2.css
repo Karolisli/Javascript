@@ -1,0 +1,103 @@
+body{
+    font-family: Arial;
+    background-image: url(email-pattern.png);
+}
+h2{
+    border-bottom: 1px solid #D9D9DA;
+    padding-bottom: 20px;
+}
+/* navigation */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
+.logo{
+    width: 100px;
+}
+nav{
+    width: 300px;
+}
+a{
+    margin: 20px;
+}
+/* main */
+main{
+    background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2015%2F12%2F114345-nature-trees-forest-bridge-vintage.jpg&f=1);
+    background-size: cover;
+    color: white;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main div input{
+    background-color: purple;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+/* section */
+section{
+    text-align: center;
+}
+.stuff{
+    display: flex;
+}
+.stuff div{
+    width: 33%;
+    margin: 10px;
+}
+.stuff div i{
+    border: 1px solid #DDDEDE;
+    background-color: #EFF0F0;
+    border-radius: 50%;
+    padding: 25px;
+}
+.stuff div h2{
+    border-bottom: 1px solid #DDDEDE;
+}
+/* things */
+.things{
+    text-align: left;
+}
+.things div img{
+    width: 300px;
+    height: 250px;
+}
+.things div{
+    display: flex;
+    flex-direction: row;
+}
+.things div:nth-of-type(odd){
+    flex-direction: row-reverse;
+}
+.things div p{
+    margin: 0px 20px 0px 20px;
+}
+/* inputs */
+.inputs input{
+    padding: 15px;
+    border: none;
+    margin: 20px 10px 20px 10px;
+    border: 1px solid #D9D9DA;
+    border-radius: 50px;
+    width: 43%;
+}
+
+.inputs textarea{
+    padding: 15px;
+    border: none;
+    border: 1px solid #D9D9DA;
+    border-radius: 50px;
+    max-width: calc(100% - 80px);
+    min-width: calc(100% - 80px);
+}
