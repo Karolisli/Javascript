@@ -1,0 +1,21 @@
+label{
+    margin: 10px;
+}
+.green{
+    border: 1px solid darkolivegreen;
+}
+div{
+    border: 1px solid blue;
+}
+h1{
+    color: blue
+}
+input{
+    width: 97%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+input:last-child{
+    width: 100px;
+    margin: 10px;
+}
